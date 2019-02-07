@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cdf563d4fe1ebbf56f81",
+    "revision": "93ed938604e01a2562d8",
     "url": "/tripsy/static/css/main.693c9741.chunk.css"
   },
   {
-    "revision": "cdf563d4fe1ebbf56f81",
-    "url": "/tripsy/static/js/main.cdf563d4.chunk.js"
+    "revision": "93ed938604e01a2562d8",
+    "url": "/tripsy/static/js/main.93ed9386.chunk.js"
   },
   {
     "revision": "1e517970727980addb2e",
@@ -24,28 +24,32 @@ self.__precacheManifest = [
     "url": "/tripsy/static/media/bg_map_800x800.684054b3.jpg"
   },
   {
-    "revision": "5f25f98ad449e14f35dbe987e0d090e8",
-    "url": "/tripsy/static/media/manrope-extrabold.5f25f98a.woff"
-  },
-  {
     "revision": "7af88092dbd37f08241da9f416dee798",
     "url": "/tripsy/static/media/manrope-extrabold.7af88092.woff2"
+  },
+  {
+    "revision": "5f25f98ad449e14f35dbe987e0d090e8",
+    "url": "/tripsy/static/media/manrope-extrabold.5f25f98a.woff"
   },
   {
     "revision": "a6fa3bd125ff6df3f77ce6c4203e4282",
     "url": "/tripsy/static/media/manrope-bold.a6fa3bd1.woff2"
   },
   {
+    "revision": "441244cf44090a0ff88abc33fbbca97d",
+    "url": "/tripsy/static/media/manrope-medium.441244cf.woff2"
+  },
+  {
     "revision": "a00289fe0098f0dc10fcc3ece8073bb6",
     "url": "/tripsy/static/media/manrope-semibold.a00289fe.woff2"
   },
   {
-    "revision": "8325e7ea6f0adcae48d1dbc6e45d1951",
-    "url": "/tripsy/static/media/manrope-semibold.8325e7ea.woff"
+    "revision": "37c00b97e26ac9fe903a6ccc9ea48644",
+    "url": "/tripsy/static/media/manrope-light.37c00b97.woff2"
   },
   {
-    "revision": "441244cf44090a0ff88abc33fbbca97d",
-    "url": "/tripsy/static/media/manrope-medium.441244cf.woff2"
+    "revision": "8325e7ea6f0adcae48d1dbc6e45d1951",
+    "url": "/tripsy/static/media/manrope-semibold.8325e7ea.woff"
   },
   {
     "revision": "3c100c613625f06a5e00ddbba18b7f61",
@@ -56,16 +60,16 @@ self.__precacheManifest = [
     "url": "/tripsy/static/media/manrope-regular.3cea6e29.woff"
   },
   {
-    "revision": "37c00b97e26ac9fe903a6ccc9ea48644",
-    "url": "/tripsy/static/media/manrope-light.37c00b97.woff2"
-  },
-  {
-    "revision": "6c9f93a2edff065d81710586bf74fbe3",
-    "url": "/tripsy/static/media/manrope-thin.6c9f93a2.woff2"
+    "revision": "8a9a261c8b8dfe90db11f1817a9d22e1",
+    "url": "/tripsy/static/media/MaterialIcons-Regular.8a9a261c.woff2"
   },
   {
     "revision": "484b6c5b3a6f889b62b1985d44467096",
     "url": "/tripsy/static/media/manrope-thin.484b6c5b.woff"
+  },
+  {
+    "revision": "6c9f93a2edff065d81710586bf74fbe3",
+    "url": "/tripsy/static/media/manrope-thin.6c9f93a2.woff2"
   },
   {
     "revision": "c246dc6aecd6b7007b935466d04e3082",
@@ -80,20 +84,12 @@ self.__precacheManifest = [
     "url": "/tripsy/static/media/manrope-light.860d372f.woff"
   },
   {
-    "revision": "8a9a261c8b8dfe90db11f1817a9d22e1",
-    "url": "/tripsy/static/media/MaterialIcons-Regular.8a9a261c.woff2"
-  },
-  {
     "revision": "016c14adad95a0e21a2ae4fbc36955c6",
     "url": "/tripsy/static/media/MaterialIcons-Regular.016c14ad.eot"
   },
   {
     "revision": "c38ebd3cd38c98fbd16bf31d1d24ce64",
     "url": "/tripsy/static/media/MaterialIcons-Regular.c38ebd3c.woff"
-  },
-  {
-    "revision": "6b7897c9d28b17fce51b4b20052bf93f",
-    "url": "/tripsy/static/media/manrope-extrabold.6b7897c9.otf"
   },
   {
     "revision": "cb519ea75f9f92a1ed78efdf2f4fdfef",
@@ -104,16 +100,20 @@ self.__precacheManifest = [
     "url": "/tripsy/static/media/manrope-semibold.ae7c5af0.otf"
   },
   {
+    "revision": "6b7897c9d28b17fce51b4b20052bf93f",
+    "url": "/tripsy/static/media/manrope-extrabold.6b7897c9.otf"
+  },
+  {
+    "revision": "85b96796bdaef0c326c1bbb18f0222ea",
+    "url": "/tripsy/static/media/manrope-light.85b96796.otf"
+  },
+  {
     "revision": "31973fa52e481ba490f242d2ab896fd2",
     "url": "/tripsy/static/media/manrope-medium.31973fa5.otf"
   },
   {
     "revision": "b0a4a6ccf7d97d473f4590541a20f950",
     "url": "/tripsy/static/media/manrope-regular.b0a4a6cc.otf"
-  },
-  {
-    "revision": "85b96796bdaef0c326c1bbb18f0222ea",
-    "url": "/tripsy/static/media/manrope-light.85b96796.otf"
   },
   {
     "revision": "ab2fd20ee1acaabb676ee6fd2432437b",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/tripsy/static/media/location_star_128x128.59ee8be5.png"
   },
   {
-    "revision": "3b97bbb2ddc7bba87d3b70f5f4792677",
+    "revision": "3bd366c47e7663a352b2936fc580cd0b",
     "url": "/tripsy/index.html"
   }
 ];

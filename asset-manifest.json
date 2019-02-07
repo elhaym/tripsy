@@ -1,7 +1,7 @@
 {
   "main.css": "/tripsy/static/css/main.693c9741.chunk.css",
-  "main.js": "/tripsy/static/js/main.cdf563d4.chunk.js",
-  "main.js.map": "/tripsy/static/js/main.cdf563d4.chunk.js.map",
+  "main.js": "/tripsy/static/js/main.93ed9386.chunk.js",
+  "main.js.map": "/tripsy/static/js/main.93ed9386.chunk.js.map",
   "static/css/1.63d89e03.chunk.css": "/tripsy/static/css/1.63d89e03.chunk.css",
   "static/js/1.1e517970.chunk.js": "/tripsy/static/js/1.1e517970.chunk.js",
   "static/js/1.1e517970.chunk.js.map": "/tripsy/static/js/1.1e517970.chunk.js.map",
@@ -13,6 +13,6 @@
   "static/css/1.63d89e03.chunk.css.map": "/tripsy/static/css/1.63d89e03.chunk.css.map",
   "static/css/main.693c9741.chunk.css.map": "/tripsy/static/css/main.693c9741.chunk.css.map",
   "index.html": "/tripsy/index.html",
-  "precache-manifest.92445caf5d8034eb72634aaa36386a5b.js": "/tripsy/precache-manifest.92445caf5d8034eb72634aaa36386a5b.js",
+  "precache-manifest.1a8669801abeb74586b93b6de51b0f03.js": "/tripsy/precache-manifest.1a8669801abeb74586b93b6de51b0f03.js",
   "service-worker.js": "/tripsy/service-worker.js"
 }
