@@ -1,0 +1,40 @@
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+@import "../../../Button/button";
+
+%div-shared {
+  padding: 8rem 5rem 0rem 0rem;
+  box-sizing: border-box;
+  white-space: pre-line;
+}
+
+#bb-s {
+  height: 100vh;
+}
+
+.bb-banner {
+  background: #333 no-repeat;
+  background-image: url(../medias/images/bg_map_800x800.jpg);
+  background-position: center;
+  height: 85vh;
+  padding: 0px !important;
+  .bb-banner-wrapper {
+    background-image: url(../medias/images/bb_seoul_bg_1200x800.jpg);
+    background-position-x: right;
+    background-position-y: center;
+    background-size: cover;
+    height: inherit;
+  }
+}
+.bb-title-wrapper {
+  @extend %div-shared;
+}
+
+.bb-act-prev {
+  @extend %div-shared;
+  h5{
+      font-weight: 700;
+      color:#000;
+  }
+}

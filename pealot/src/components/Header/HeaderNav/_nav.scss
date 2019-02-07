@@ -1,0 +1,23 @@
+%link-shared {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1080 / 1220 * 100%;
+} 
+.navbar {
+  a {
+    @extend %link-shared;
+  }
+  a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .menu{
+    color: rgb(0, 71, 215);
+    cursor: pointer;
+    .material-icons{
+      font-size:35px;
+    }
+  }
+}

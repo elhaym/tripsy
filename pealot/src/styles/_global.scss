@@ -1,0 +1,21 @@
+// Global.scss
+// Include all of styles used globally
+
+@import '../components/Page/Home/home';
+@import '../components/Header/header';
+@import '../components/Menu/SideNav/sidenav';
+@import '../components/Button/button';
+@import '../styles/animations';
+
+$font-stack: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+$primary-color: #333;
+
+html,
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+
+section {
+  width: 100vw;
+}

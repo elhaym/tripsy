@@ -1,0 +1,12 @@
+%btn-text-shared {
+  font-weight: 500 !important;
+  text-align: left;
+  font-family: "Manrope", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.btn-jag {
+  @extend %btn-text-shared;
+}
+.btn-jat {
+  @extend %btn-text-shared;
+}
