@@ -4,9 +4,23 @@
   font-family: "Manrope", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
+$btn-width: 100%;
+
+%btn-homesearch-shared {
+  font-weight: 400 !important;
+  text-align: center !important;
+  text-transform: uppercase;
+  font-family: "Manrope", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  width: $btn-width;
+}
+
 .btn-jag {
   @extend %btn-text-shared;
 }
 .btn-jat {
   @extend %btn-text-shared;
+}
+
+.h-search-btn {
+  @extend %btn-homesearch-shared;
 }
