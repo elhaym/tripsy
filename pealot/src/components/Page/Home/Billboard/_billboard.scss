@@ -3,21 +3,22 @@
 @import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
 @import "../../../Button/button";
 
-%div-shared {
-  padding: 8rem 5rem 0rem 0rem;
+@mixin div-shared ($padding) {
+  padding: $padding;
   box-sizing: border-box;
   white-space: pre-line;
 }
 
 #bb-s {
-  height: 100vh;
+  height: 100%;
 }
 
 .bb-banner {
   background: #333 no-repeat;
   background-image: url(../medias/images/bg_map_800x800.jpg);
   background-position: center;
-  height: 85vh;
+  background-repeat: repeat;
+  height: 100vh-(20vh);
   padding: 0px !important;
   .bb-banner-wrapper {
     background-image: url(../medias/images/bb_seoul_bg_1200x800.jpg);
@@ -28,13 +29,17 @@
   }
 }
 .bb-title-wrapper {
-  @extend %div-shared;
+  @include div-shared(8rem 5rem 0rem 0rem);
 }
 
 .bb-act-prev {
-  @extend %div-shared;
+  @include div-shared(8rem 0rem);
   h5{
       font-weight: 700;
       color:#000;
   }
+}
+
+#bb-s {
+  height: 100%;
 }

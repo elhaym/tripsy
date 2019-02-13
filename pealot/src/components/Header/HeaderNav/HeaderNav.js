@@ -48,8 +48,8 @@ export class HeaderNav extends React.Component {
 
         })
         return (
-            <nav className="navbar">
-                <div className="container-fluid">
+            <nav className="row navbar">
+                <div className="col-12 container-fluid">
                     <MenuButton handleEvent={this.props.handleOpenBurger} />
                     <ul className="nav justify-content-end">
                         {navItems}

@@ -2,31 +2,36 @@
 // Include all of Bootstrap
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./global";
 
 @mixin btn-option($color, $align) {
-    background: $color;
-    text-align: $align;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    font-size: 1rem;
+  background: $color;
+  text-align: $align;
+  border-color: $color;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 1rem;
 }
 
 @mixin btn-outline-option($color, $align) {
-    color: $color;
-    border-color: $color;
-    text-align: $align;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    font-size: 1rem;
+  color: $color;
+  border-color: $color;
+  text-align: $align;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 1rem;
 }
+
+$primary-color: #0047d7;
+$alternate-color: #000000;
 
 h1,
 h2 {
   font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 800;
-  color: rgb(20, 20, 20);
+  color: $alternate-color;
 }
 
 h4,
@@ -36,23 +41,51 @@ h5 {
   font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navbar {
+  padding-left: 0;
+  .container-fluid {
+    padding-left: 0;
+  }
+}
+
 .container {
   max-width: 1220px;
 }
 
 .btn-dark {
-  @include btn-option(#000, left);
+  @include btn-option($alternate-color, left);
 }
 
 .btn-primary {
-    @include btn-option(#0047d7, left);
+  @include btn-option($primary-color, left);
 }
 
 .btn-outline-primary {
-    @include btn-outline-option(#0047d7, left);
+  @include btn-outline-option($primary-color, left);
+  &:hover {
+    color: #fff;
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
+  &:active {
+    color: #fff;
+    background-color: $primary-color !important;
+    border-color: $primary-color;
+  }
+  &:focus {
+    color: #fff;
+    background-color: $primary-color !important;
+    border-color: $primary-color;
+  }
 }
 
-.btn-outline-primary:hover{
-    color: #fff;
-    background-color: #0047d7;
+.form-control {
+  border-radius: 0px;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $font-stack !important;
 }

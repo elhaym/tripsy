@@ -58,7 +58,7 @@ const SideNav = (props) => {
         )
     })
     return (
-        <div id="side-menu" style={menuStyle} className="col-5 col-lg-5 col-md-6 col-sm-12">
+        <div id="side-menu" style={menuStyle} className="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div className="col-12 h-100 sidenav">
                 <div className="sidenav-wrapper" style={listStyle}>
                     <CloseButton handleEvent={props.handleCloseBurger} />

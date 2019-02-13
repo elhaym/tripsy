@@ -4,7 +4,7 @@ import Icon from '../Icon/Icon';
 
 const MenuButton = (props) => {
     return (
-        <a className="menu" onClick={props.handleEvent}>
+        <a className="col-1 menu" onClick={props.handleEvent}>
             <Icon icon="menu">menu</Icon>
         </a>
     )
