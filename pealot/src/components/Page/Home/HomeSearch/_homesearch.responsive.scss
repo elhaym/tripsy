@@ -1,0 +1,111 @@
+$height: 250px !important;
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .hs-d {
+    .cb {
+      height: auto !important;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 0%;
+    }
+  }
+}
+
+@include media-breakpoint-up(xs) {
+  .hs-d {
+    .cb {
+      height: auto !important;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 0%;
+    }
+  }
+}
+@include media-breakpoint-up(sm) {
+  .hs-d {
+    .cb {
+      height: auto !important;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 0%;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+  .hs-d {
+    .cb {
+      height: $height;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 20.5%;
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  .hs-d {
+    .cb {
+      height: $height;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 20.5%;
+    }
+  }
+}
+@include media-breakpoint-up(xl) {
+  .hs-d {
+    .cb {
+      height: $height;
+      position: relative;
+    }
+    .info {
+      height: 90px;
+      background-color: #0047d7;
+      color: #ffffff !important;
+      top: 0;
+      position: absolute;
+      margin: 0 auto;
+      top: 38.5%;
+      right: 20.5%;
+    }
+  }
+}

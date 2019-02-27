@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import MenuButton from '../../Button/MenuButton';
 
-const pages = [
+const data = [
     {
         icon: '/',
         name: 'Home',
@@ -10,13 +10,13 @@ const pages = [
     },
     {
         icon: '/',
-        name: 'Become a guide',
+        name: 'Create a parking space',
         path: '/joinus'
     },
     {
         icon: '/',
         name: 'Blog',
-        path: '/discover'
+        path: '/stories'
     },
     {
         icon: '/',
@@ -37,23 +37,27 @@ const pages = [
 
 export class HeaderNav extends React.Component {
     render() {
-        const navItems = pages.map((page, i) => {
+        const links = data.map((link, i) => {
             if (i > 0) {
                 return (
                     <li className="nav-item">
-                        <Link to={page.path} className="nav-link">{page.name}</Link>
+                        <Link to={link.path} className="nav-link">{link.name}</Link>
                     </li>
-                )
+                );
             }
-
-        })
+            else {
+                return null;
+            }
+        });
         return (
             <nav className="row navbar">
                 <div className="col-12 container-fluid">
                     <MenuButton handleEvent={this.props.handleOpenBurger} />
-                    <ul className="nav justify-content-end">
-                        {navItems}
-                    </ul>
+                    <div className="col-7">
+                        <ul className="nav justify-content-end">
+                            {links}
+                        </ul>
+                    </div>
                 </div>
             </nav>
         );

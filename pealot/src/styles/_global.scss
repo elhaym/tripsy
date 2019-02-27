@@ -1,12 +1,12 @@
 // Global.scss
 // Include all of styles used globally
 
-@import '../components/Page/Home/home';
-@import '../components/Page/Home/HomeSearch/homesearch';
-@import '../components/Header/header';
-@import '../components/Menu/SideNav/sidenav';
-@import '../components/Button/button';
-@import '../styles/animations';
+@import "../components/Page/Home/home";
+@import "../components/Header/header";
+@import "../components/Menu/SideNav/sidenav";
+@import "../components/Button/button";
+@import '../components/Footer/footer';
+@import "../styles/animations";
 
 $font-stack: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
 $primary-color: #333;
@@ -19,4 +19,28 @@ body {
 
 section {
   min-width: 100%;
+  margin-bottom: 185px;
+}
+
+.hero {
+  position: fixed;
+  height: 100vh;
+  padding: 0rem 5rem;
+  // background: rgba(0, 0, 0, 0.75);
+  background: rgba(19, 19, 19, 0.86);
+  z-index: $zindex-fixed;
+  overflow: hidden;
+  transition: 300ms all ease;
+  .closebtn {
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    color: #ffffff;
+    cursor: pointer;
+    clear: both;
+    .material-icons,
+    .close {
+      font-size: 35px !important;
+    }
+  }
 }

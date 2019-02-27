@@ -18,10 +18,10 @@
   background-image: url(../medias/images/bg_map_800x800.jpg);
   background-position: center;
   background-repeat: repeat;
-  height: 100vh-(20vh);
+  height: 695px;
   padding: 0px !important;
   .bb-banner-wrapper {
-    background-image: url(../medias/images/bb_seoul_bg_1200x800.jpg);
+    background-image: url(../medias/images/bb_street_bg_1200x800.jpg);
     background-position-x: right;
     background-position-y: center;
     background-size: cover;
@@ -29,11 +29,11 @@
   }
 }
 .bb-title-wrapper {
-  @include div-shared(8rem 5rem 0rem 0rem);
+  @include div-shared(8rem 5rem 1rem 0rem);
 }
 
 .bb-act-prev {
-  @include div-shared(8rem 0rem);
+  @include div-shared(8rem 0rem 0rem 0rem);
   h5{
       font-weight: 700;
       color:#000;

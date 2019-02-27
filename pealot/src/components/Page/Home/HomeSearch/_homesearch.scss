@@ -1,0 +1,65 @@
+$bg-color: #000000;
+
+@mixin txt-shared($color, $line-h) {
+  color: $color;
+  line-height: $line-h;
+}
+
+@mixin cb-shared($cb-bg-color, $color) {
+  height: 90px;
+  background-color: $cb-bg-color;
+  color: $color;
+  top: 0;
+}
+
+#hs-s {
+  height: 100%;
+  .hs-b {
+    @for $i from 1 through 6 {
+      h#{$i} {
+        @include txt-shared(#000, 35px);
+        padding: 0.5rem 0rem;
+      }
+    }
+    p {
+      font-weight: 200;
+      @include txt-shared(#636363, 23px);
+    }
+  }
+}
+
+.hs-d {
+  display: flex;
+  background-color: #fff;
+  height: 400px !important;
+  position: relative;
+  .hs-b {
+    background-color: $bg-color;
+    background-image: url("../medias/images/bg_banner_drive.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .hs-f {
+    background-image: url("../medias/images/bg_map_800x800.jpg");
+  }
+  .cb {
+    position: relative;
+  }
+  .cb-lft {
+    background-color: #ffffff;
+  }
+  .info {
+    @include cb-shared(#0047d7, #ffffff !important);
+    position: absolute;
+    margin: 0 auto;
+    top: 38.5%;
+    right: 20.5%;
+    h5 {
+      color: #ffffff !important;
+      font-weight: 400;
+      font-family: "Manrope", "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1rem;
+      line-height: 23px !important;
+    }
+  }
+}

@@ -3,10 +3,7 @@ import React from 'react';
 import { Container } from '../../../Container/Container';
 import BillboardBanner from './BillboardBanner';
 import Button from '../../../Button/Button';
-import { BrowserRouter, Link } from 'react-router-dom';
-
-const guideButtonIcon = require('../../../../medias/images/icons/face_id_128x128.png');
-const locateButtonIcon = require('../../../../medias/images/icons/location_star_128x128.png');
+import { Link } from 'react-router-dom';
 
 
 export class Billboard extends React.Component {
@@ -17,31 +14,31 @@ export class Billboard extends React.Component {
                     <div className="row h-100">
                         <div className="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                             <div className="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 bb-title-wrapper">
-                                <h1 className="bb-m-title slideInUp">Osez voyager différemment,</h1>
-                                <h4 className="bb-c-title slideInUp">Réservez des expériences uniques guidés par des locaux à travers le monde et vivez des moments inoubliables</h4>
+                                <h1 className="bb-m-title slideInUp">Finies les rondes incessantes,</h1>
+                                <h4 className="bb-c-title slideInUp">Réservez des emplacements de parking pratiques partout dans le monde et économisez votre temps</h4>
                                 <div className="bb-act-prev">
-                                    <h5>Tripsy, c'est vous</h5>
+                                    <h5>Pealot, c'est vous</h5>
                                     <div className="row">
                                         <div className="col-6">
                                             <p>
-                                                Faites découvrir les richesses de votre région. Rentabilisez votre activité.
+                                                Offrez à des individus la possibilité de stationner. Rentabilisez votre place.
                                                 <br />
                                                 <Link to="/">En savoir plus</Link>
                                             </p>
                                             <br />
                                             <Button type="button" model="dark" size="lg" custom="btn-jag">
-                                                Proposez une expérience
+                                                Proposez un emplacement
                                             </Button>
                                         </div>
                                         <div className="col-6 justify-content-end">
                                             <p>
-                                                Réservez une expérience de voyage. Découvrez des endroits uniques.
+                                                Choisissez votre place. Garez vous librement et en toute sécurité.
                                                 <br />
                                                 <Link to="/">En savoir plus</Link>
                                             </p>
                                             <br />
                                             <Button type="button" model="outline-primary" size="lg" custom="btn-jat">
-                                                Trouvez un guide expérimenté
+                                                Réservez un emplacement
                                             </Button>
                                         </div>
                                     </div>

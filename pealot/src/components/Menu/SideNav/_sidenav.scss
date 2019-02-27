@@ -4,7 +4,7 @@
   background: #fff;
   padding: 0;
   overflow: hidden;
-  z-index: 2;
+  z-index: 1000;
   li {
       border: unset;
   }
@@ -21,7 +21,7 @@
     }
 }
 
-  .closebtn {
+  .closebtn { 
     display: flex;
     justify-content: flex-end;
     color: #0047d7;

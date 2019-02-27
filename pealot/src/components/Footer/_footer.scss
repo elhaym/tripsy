@@ -1,0 +1,33 @@
+%text-shared {
+    color: rgb(177, 177, 177) !important;
+    font-weight: 300 !important;
+    font-size: 0.85rem;
+}
+
+footer {
+  background: #000;
+  padding: 80px;
+  color: #fff;
+  height: auto;
+  box-sizing: border-box;
+  @for $i from 1 through 14 {
+    .footer-cat-item-#{$i} {
+      background-color: transparent !important;
+      border: none !important;
+      padding: 5px 0px;
+    }
+    a {
+        @extend %text-shared;
+    }
+    h6{
+        color: #fff !important;
+        font-weight: 600;
+    }
+    .copyright{
+        border-top : #fff 1px solid;
+        margin-top: 80px;
+        padding-top: 80px;
+        @extend %text-shared;
+    }
+  }
+}
