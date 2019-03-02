@@ -1,12 +1,13 @@
 #side-menu {
   position: fixed;
   height: 100vh;
+  top: 0;
   background: #fff;
   padding: 0;
   overflow: hidden;
   z-index: 1000;
   li {
-      border: unset;
+    border: unset;
   }
   a {
     color: #000;
@@ -19,9 +20,9 @@
       color: #0047d7;
       transition: color 500ms ease;
     }
-}
+  }
 
-  .closebtn { 
+  .closebtn {
     display: flex;
     justify-content: flex-end;
     color: #0047d7;

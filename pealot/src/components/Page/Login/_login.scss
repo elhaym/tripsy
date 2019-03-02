@@ -1,0 +1,27 @@
+$padding-txt: 30px 0px;
+
+.lgn-form {
+  padding: 185px 100px 0px 0px;
+
+  a {
+    color: #0047d7 !important;
+    .text-muted {
+      color: inherit !important;
+    }
+  }
+  h1,
+  .btn-lgn {
+    margin: $padding-txt;
+  }
+}
+
+.lgn-banner {
+  background-image: url("../medias/images/bg_lgn_1200x800.jpg");
+  background-position-x: 79% !important;
+  @extend %bg-shared;
+  height: 800px;
+}
+
+.btn-lgn {
+  font-weight: 300 !important;
+}

@@ -7,7 +7,7 @@ import '../../styles/custom.scss';
 import { Header } from '../Header/Header';
 import Main from './Main';
 import SideNav from '../Menu/SideNav/SideNav';
-import Hero from '../Layout/Hero';
+import Hero from '../Layer/Hero';
 import { Footer } from '../Footer/Footer';
 
 class App extends Component {

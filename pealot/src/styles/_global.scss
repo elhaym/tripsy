@@ -5,16 +5,32 @@
 @import "../components/Header/header";
 @import "../components/Menu/SideNav/sidenav";
 @import "../components/Button/button";
-@import '../components/Footer/footer';
+@import "../components/Footer/footer";
+@import "../components/Page/page";
+@import "../components/Page/Login/login";
+@import "../components/Page/Register/register";
 @import "../styles/animations";
 
-$font-stack: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
-$primary-color: #333;
+// Global settings
 
+$font-stack: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+$primary-color: #0047d7;
+$alternate-color: #000000;
+$subtitute-color: #333;
+$gl-space: 185px;
+
+%bg-shared {
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// Global styles
 html,
 body {
   font-family: $font-stack;
-  color: $primary-color;
+  color: $subtitute-color;
 }
 
 section {

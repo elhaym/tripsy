@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -10,8 +11,8 @@ import './index.css';
 import App from '../src/components/App/App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render((
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+ReactDOM.render(
+    (<BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
     </BrowserRouter>), document.getElementById('root'));
 
