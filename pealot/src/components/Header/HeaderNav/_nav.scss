@@ -7,7 +7,6 @@
 .navbar {
   a {
     @extend %link-shared;
-    font-weight: 600 !important;
   }
   a:hover {
     color: rgb(0, 71, 215);
