@@ -10,7 +10,7 @@
     "ajv": "^6.9.1",
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "material-design-icons-iconfont": "^4.0.4",
     "node-sass": "^4.11.0",
     "popper.js": "^1.14.7",
